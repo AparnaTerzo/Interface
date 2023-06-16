@@ -3,7 +3,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Interfaces");
+       show((String name) ->{
+            System.out.println(name);
+        });
+
+        }
+        public static void show(Animal animal){
+            System.out.println("Welcome to the animal park");
 
         }
     }
